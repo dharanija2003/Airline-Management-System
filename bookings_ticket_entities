@@ -1,0 +1,30 @@
+Entities:
+Airlines Booking, Ticket
+
+List of attributes:
+ab desc ab date, ab pass id, ab type ab id.
+Ae_title.Ac_id Ae_desc, Ae_date, Ae date, Ae type
+
+AIRLINES BOOKING TABLE:
+
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+Schema:
+SQL> create table AirlinesBooking(ad_dese varchar(25),ab_date varchar(25),ab pass id
+varchar(25),ab type varchar(25), ab_id int NOT NULL, PRIMARY KEY(ab id), FOREIGN KEY(ab pass_id),REFERENCES passenger(p_id));
+
+Table created.
+
+Ticket table:
+The ticket table contains the fields like id, description, date and the table were created and structure will be displayed.
+
+Schema:
+SQL> create table ticket(te id int NOT NULL,te desc varchar(25)NOT NULL, te date varchar(25)NOT NULL, PRIMARY KEY (te id));
+
+Table created
+Relationship between Airlines Booking and ticket:
+
+Table entries:
+
+Airlines Booking table:
+This table contains the information about passenger booking details at which date they are planning their journey. In this ab_id is the primary key and ab pass_id is the foreign key.
