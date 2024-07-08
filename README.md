@@ -42,5 +42,5 @@ Airlines Booking table:
 
 This table contains the information about passenger booking details at which date they are planning their journey. In this ab_id is the primary key and ab pass_id is the foreign key.
 
-##Conclusion
+## Conclusion
 This DBMS project provides us a structured and organized approach to store, manage, and retrieve large volumes of data related to airlines operations, such as flights, passengers, bookings, and reservations. By using data bases we can reduce the loss as if any ticket or schedule was cancelled then it will immediately updates so the ticket can be sold again and we can reschedule another flight if any schedule changes. In future, These data bases are very useful in so many aspects such as data integrity by enforcing data constraints, such as referential integrity and data type validation, which helps to maintain consistent and accurate information. It also provides efficient data retrieval capabilities. By employing appropriate indexing techniques and query optimization strategies, the system can retrieve specific information quickly, even from large databases. It also provides many more futures such as data centralization, Scalability, Flexibility and most importantly security. So we can conclude that by using the databases the work is done simply and effectively.
