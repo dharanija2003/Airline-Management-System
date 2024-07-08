@@ -1,0 +1,41 @@
+Entities:
+User, Airlines Booking
+
+List of attributes:
+User_id,User_name, User_mobile, User_email,User_address.
+p_mobile,p_id,p_name,p_add.p_pass.
+ab_descab date, ab_pass_id, ab_type ab_id.
+
+USER TABLE:
+The user relation contains the fields like user id, name, mobile, email, address and the table were created and structure will be displayed.
+
+Schema:
+SQL>create table users(user_id varchar(25) NOT NULL user_name varchar(25) NOT
+NULL,user_mobile int NOT NULL, user_email varchar(25)NOT NULL,user_address
+varchar(25) NOT NULL, PRIMARY KEY(user_ID));
+
+Table created.
+
+PASSENGER TABLE:
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+Schema:
+SQL> create table passenger(p mobile int NOT NULL.p_id varchar(25)NOT NULL.p name varchar(25)NOT NULL.p_add varchar(25)NOT NULL, PRIMARY KEY(p_id)); NUll.p pass varchar(25)NOT
+
+Table created.
+
+AIRLINES BOOKING TABLE:
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+Schema:
+
+SQL> create table Airlines Booking(ad_desc varchar(25), ab date varchar(25),ab_pass_id varchar(25), ab_type varchar(25),ab_id int NOT NULL, PRIMARY KEY(ab_id),FOREIGN KEY(ab pass id), REFERENCES passenger(p_id)); Table created.
+Relationship between user table, passenger table and airlines booking table:
+
+TABLE ENTRIES:
+
+User table:
+This table contains the information about id, name, mobile, email and address of the user.
+
+Passenger table:
+This table contains the information about the passenger details like id, mobile number, name, address password.
