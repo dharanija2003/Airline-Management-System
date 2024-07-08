@@ -1,0 +1,43 @@
+Entities:
+
+User, logins and roles
+
+List of attributes
+Login_ID.Login_role ID,Login Username,Login_password.
+User id,User name, User mobile, User email, User address.
+Role id,Role name, Role dese.
+
+LOGIN TABLE:
+The login relation contains the fields like login id, role id, user name, password and the table were created and structure will be displayed.
+
+Schema:
+SQL> create table Log_IN(Login_ID varchar(25) NOT NULL, Login_role_ID varchar(25) NOT NULL,Login_username varchar(25) NOT NULL,Login_password varchar(25), PRIMARY KEY (Login_ID));
+
+[14:46, 7/8/2024] Dharanija: USER TABLE
+
+The user relation contains the fields like user id, name, mobile, email, address and the table were created and structure will be displayed.
+
+Schema:
+SQL> create table users(user_id varchar(25) NOT NULL,user_name varchar(25) NOT NULL,user mobile int NOT NULL, user_email varchar(25) NOT NULL user address varchar(25) NOT NULL, PRIMARY KEY(user_ID));
+
+Table created.
+[14:46, 7/8/2024] Dharanija: ROLES TABLE:
+
+The user relation contains the fields like role id, name, description and the table were structure will be displayed. created and
+
+Schema:
+SQL> create table roles(Role_id varchar(25) NOT NULL, Role name varchar(25)NOT NULL, Role dese varchar(25) NOT NULL, PRIMARY KEY(Role_id)); Table created.
+[14:47, 7/8/2024] Dharanija: Relationship between the user table login table and roles table:
+
+In the airline management system each user have roles which role they are playing and have login credentials for the users like id, user name and password.
+
+TABLE ENTRIES:
+User table:
+
+This table contains the information about id, name, mobile, email and address of the user.
+[14:47, 7/8/2024] Dharanija: login table:
+
+The login table contains the information about login id, role id, user name, password. The user will check the login details through this table,
+[14:47, 7/8/2024] Dharanija: Roles table:
+
+This table contains the roles of the users which they are playing in the airlines management system. This contains the roles id, name and description.
