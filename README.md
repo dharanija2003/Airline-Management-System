@@ -7,3 +7,67 @@ Airline, Entities, Attributes, Relationship, Flight Scheduling, Ticket System
 
 ## Introduction
 Airline Reservation System aims to automate an Airline company's flight operations and ticketing/seat booking and confirmation system. The software is providing options for viewing different flights available within a different timing for a specific day. That provide customers within facility to able to book ticket smoothly. The customers can modify and able to cancel the ticket for any reason. That prepare within a role and policies. The software should provide option for checking availability of the tickets and it will help customers to get message if the ticket unavailable. That will be displayed into customers. The customers should be noted when the change has been made or any further change and also it improves the efficiency by automating repetitive tasks, reducing manual errors. These systems provide real-time access to critical information, enable online reservations and ticketing, facilitate efficient scheduling and resource allocation, and support seamless communication between various stakeholders, including passengers, airline staff, and ground handling agencies. The benefits of implementing an airline management system are manifold. It enables airlines to manage their fleet effectively, ensuring that aircraft are deployed efficiently, maintenance schedules are adhered to, and crew assignments are streamlined. Key performance indicators, financial metrics, and operational data can be derived from the system, empowering management to make informed decisions, identify trends, and formulate strategies for business growth and sustainability
+
+## LOGIN TABLE:
+
+The login relation contains the fields like login id, role id, user name, password and the table were created and structure will be displayed.
+
+## USER TABLE
+
+The user relation contains the fields like user id, name, mobile, email, address and the table were created and structure will be displayed.
+
+## ROLES TABLE:
+
+The user relation contains the fields like role id, name, description and the table were structure will be displayed.
+
+Relationship between the user table login table and roles table:
+
+In the airline management system each user have roles which role they are playing and have login credentials for the users like id, user name and password.
+
+## TABLE ENTRIES:
+
+### User table:
+
+This table contains the information about id, name, mobile, email and address of the user.
+### login table:
+
+The login table contains the information about login id, role id, user name, password. The user will check the login details through this table,
+### Roles table:
+
+This table contains the roles of the users which they are playing in the airlines management system. This contains the roles id, name and description.
+
+### USER TABLE:
+
+The user relation contains the fields like user id, name, mobile, email, address and the table were created and structure will be displayed.
+
+### PASSENGER TABLE:
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+### AIRLINES BOOKING TABLE:
+
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+Relationship between user table, passenger table and airlines booking table:
+
+## TABLE ENTRIES:
+
+### User table:
+
+This table contains the information about id, name, mobile, email and address of the user.
+Passenger table:
+
+This table contains the information about the passenger details like id, mobile number, name, address password.
+
+### AIRLINES BOOKING TABLE:
+
+The passenger table contains the fields like id, mobile number, name, address, password and the table were created and structure will be displayed.
+
+### Ticket table:
+
+The ticket table contains the fields like id, description, date and the table were created and structure will be displayed.
+
+Relationship between Airlines Booking and ticket:
+Table entries:
+Airlines Booking table:
+
+This table contains the information about passenger booking details at which date they are planning their journey. In this ab_id is the primary key and ab pass_id is the foreign key.
